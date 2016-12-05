@@ -1,0 +1,3 @@
+[submodule "python-intro"]
+	path = python-intro
+	url = https://github.com/uconn-maglab/python-tutorial-lab.git
