@@ -23,7 +23,7 @@ Pythonic endeavors.
 
 In this workshop led by Russell, you will get a quick, high-level introduction to data analysis in Python. We will cover the following Python tools:
 
-1. [Jupyter notebooks](https://jupyter.org/), a web application that allows you to create and share documents that contain live (Python) code and code output, equations, visualizations and explanatory text. They are a very flexible, powerful tool for doing reproducible #openscience.
+1. [Jupyter notebooks](https://jupyter.org/), a web application that allows you to create and share documents that contain live (Python) code and code output, equations, visualizations and explanatory text. They are an excellent tool for doing reproducible #openscience.
 2. The [pandas](pandas.pydata.org) library, used for representing and manipulating tabular data structures (e.g., data in csv's or Excel spreadsheets).
 3. [Seaborn](seaborn.pydata.org), a data visualization library that allows generating both basic plots (bar plots, scatter plots) and more advanced plots (violin plots, heatmaps) a breeze.
 4. [Scipy.stats](seaborn.pydata.org) and/or [statsmodels](http://statsmodels.sourceforge.net/), libraries with common statistical functions and tests in the general(ized) linear model and beyond.
