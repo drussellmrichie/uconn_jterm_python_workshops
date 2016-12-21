@@ -4,6 +4,18 @@
 
 ### Introduction to Python
 
+This is a hands-on tutorial covering the basics of programming in Python: a powerful yet
+user-friendly programming language that is a much-loved tool for scientists. We will
+start from the very basics and build up, touching on a variety of topics ("Hello 
+world!", boolean logic, control flow, lists and loops, functions, possibly
+object-oriented programming), and you will be writing and running your own
+programs from the beginning.
+
+**No prior programming experience is needed.** The goal is to provide you with 
+the foundational tools for thinking "programmatically"—developing a sense for
+what kinds of problems can be solved by writing a program. The materials we will
+use in the tutorial will be designed to also act as a reference for your future
+Pythonic endeavors. 
 
 ### [Monica's]
 
