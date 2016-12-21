@@ -17,7 +17,9 @@ what kinds of problems can be solved by writing a program. The materials we will
 use in the tutorial will be designed to also act as a reference for your future
 Pythonic endeavors. 
 
-### [Monica's]
+### PsychoPy
+
+[Abstract to come]
 
 ### Data analysis with Python
 
