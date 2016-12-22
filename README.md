@@ -23,7 +23,7 @@ Pythonic endeavors.
 
 ### Data analysis with Python
 
-In this workshop led by Russell, you will get a quick, high-level introduction to data analysis in Python. We will cover the following Python tools:
+In this workshop -- held on Thursday January 12th at 10am, and led by Russell -- you will get a quick, high-level introduction to data analysis in Python. We will cover the following Python tools:
 
 1. [Jupyter notebooks](https://jupyter.org/), a web application that allows you to create and share documents that contain live (Python) code and code output, equations, visualizations and explanatory text. They are an excellent tool for doing reproducible #openscience.
 2. The [pandas](pandas.pydata.org) library, used for representing and manipulating tabular data structures (e.g., data in csv's or Excel spreadsheets).
