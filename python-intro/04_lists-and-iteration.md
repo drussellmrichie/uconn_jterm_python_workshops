@@ -2,11 +2,18 @@
 
 ## Intro to lists
 
-**Lists** are yet another extremely useful tool in Python. You might know them in other languages as *vectors* or *arrays*. They are pretty self-explanatory, simply an ordered sequence of objects enclosed in square brackets (`[]`). The "objects" here can be just about anything: strings, numerics, other lists, variables pointing to objects...I actually don't know of any type that could *not* be in a list.
+**Lists** are yet another extremely useful tool in Python. You might know them
+in other languages as *vectors* or *arrays*. They are pretty self-explanatory,
+simply an ordered sequence of objects enclosed in square brackets (`[]`). The
+"objects" here can be just about anything: strings, numerics, other lists,
+variables pointing to objects...I actually don't know of any type that could
+*not* be in a list.
 
-Of note is the fact that lists **do not** have to be comprised of all one type (in other languages, you have to limit it to one type). This makes lists seriously versatile.
+Of note is the fact that lists **do not** have to be comprised of all one type
+(in some other languages, you have to limit it to one type, meaning that a list
+containing integers could not contain a string). This makes lists seriously versatile.
 
-Let's start with a list called `pets` that we will use in later steps:
+Let's start by defining a list called `pets` that we will use in later steps:
 
 ```python
 pets = ["dogs", "cats", "guinea pigs"]
@@ -14,7 +21,9 @@ pets = ["dogs", "cats", "guinea pigs"]
 
 ## Indexing and list methods
 
-Members of a list can be accessed by their **index**, a number referring to their position in the list. Importantly, Python is known as a zero-indexed language, meaning that it **starts counting from 0, not 1**. That means:
+Members of a list can be accessed by their **index**, a number referring to
+their position in the list. Importantly, Python is known as a zero-indexed language,
+meaning that it **starts counting from 0, not 1**. That means:
 
 ```python
 print(pets[0])
@@ -22,7 +31,7 @@ print(pets[0])
 
 prints `'dogs'`.
 
-To add an item to a list, use the `list.append()` method:
+To add an item to the end of a list, use the `list.append()` method:
 
 ```python
 pets.append("fish")
@@ -41,7 +50,8 @@ prints `4`.
 
 ### Try it yourself: Lists
 
-Make a new file called `lists.py`. Define a list called `fruits` that has members "apple", "banana", "orange", "grape".
+Make a new file called `lists.py`. Define a list called `fruits` that has members
+"apple", "banana", "orange", "grape".
 
 `append` a pineapple to your list.
 
@@ -49,7 +59,8 @@ And `print` the third member of the list.
 
 ## Iteration: for loops
 
-Since I keep saying it, I figured I would write a program to tell you how important and useful each section is.
+Since I keep saying it, I figured I would write a program to tell you how important
+and useful each section is.
 
 ```python
 for section in tutorial:
@@ -58,9 +69,12 @@ for section in tutorial:
 
 And that's a **for loop**!
 
-A for loop takes each member of a list (with the syntax: `for member in list`) one at a time, and does something to it that you get to define. This process of doing something to each member of a list is known as **iteration**.
+A for loop takes each member of a list (with the syntax: `{python} for member in
+list`) one at a time, and does something to it according to your instructions.
+The process of doing something to each member of a list is known as **iteration**.
 
-Let's say you wanted to take a list of numbers and double them, and print the results to the screen:
+Let's say you wanted to take a list of numbers and double each number, and print
+the results to the screen:
 
 ```python
 numbers = [1, 2, 23, 634563.75, 23.0, 1212**2]
@@ -69,7 +83,10 @@ for n in numbers:
     print(double_n)
 ```
 
-Notice that statements that are part of the for loop are indented. This is actually meaningful, because it tells the interpreter that the statements should be thought of as **nested** within the loop and part of the iteration, not separate. See the following example:
+Notice that statements that are part of the `for` loop are indented. This is
+actually meaningful, because it tells the interpreter that the statements should
+be thought of as **nested** within the loop and part of the iteration, not separate.
+See the following example:
 
 ```python
 for pet in pets:
@@ -77,7 +94,8 @@ for pet in pets:
 print("All pets are great!")
 ```
 
-The last line is only printed once, because it is outside the loop. If I had indented it, it would have been printed with every iteration.
+The last line is only printed once, because it is outside the loop. If I had
+indented it, it would have been printed with every iteration.
 
 ### Try it yourself: for loop
 
@@ -92,9 +110,13 @@ Go back to `lists.py`. Write a loop that would print the following:
 
 ## Advanced topic: while loops and list comprehension
 
-I won't go into detail about these for the sake of time, but you should know about **while loops** and **list comprehension**. Instead, I will leave it as a challenge. See if you can figure out what these code snippets are doing and why. I'd be happy to work through them with you if you have questions about them later.
+I won't go into detail about these for the sake of time, but you should know
+about **while loops** and **list comprehension**. Instead, I will leave it as a
+challenge. See if you can figure out what these code snippets are doing and why.
+I'm happy to work through them with you if you have questions about them later.
 
-while loop: (hint: the `+=` operator is called "recursive addition" and it's---get this---really useful)
+while loop: (hint: the `+=` operator is called "recursive addition" and
+it's—surprise!—really useful)
 
 ```python
 x = 1
