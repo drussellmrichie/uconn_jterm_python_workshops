@@ -1,0 +1,5 @@
+COND	V_STIM	A_STIM	KEY	RESP	ACC	RT
+congruent	happy	laugh	right	congruent	1	0.822
+congruent	sad	cry	left	incongruent	0	1.471
+incongruent	sad	laugh	left	incongruent	1	1.065
+incongruent	happy	cry	left	incongruent	1	1.917
