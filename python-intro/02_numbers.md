@@ -24,10 +24,13 @@ In the following example:
 
 ```python
 x = 5
+
+# This will print "5".
 print(x)
 ```
 
-The interpreter would print `5`.
+(Note: Any line that starts with `#` will not be interpreted—this is called a 
+**comment**.)
 
 Variables in Python are **dynamically typed**. That means that you can assign
 an **integer** value to a variable, and then later on make it a string without
@@ -37,10 +40,10 @@ that you declare the data type with the variable, and cannot change it later.) S
 ```python
 x = 5
 x = "Hello"
+
+# This will print "Hello".
 print(x)
 ```
-
-The interpreter would print `Hello`.
 
 ### Try it yourself: Define some variables
 
@@ -109,34 +112,28 @@ When you divide two floats, or an integer and a float, everything goes as
 you would expect, and it returns a float:
 
 ```python
-1.2 / 2.4
+1.2 / 2.4  # Returns 0.5
 ```
-
-returns `0.5`.
 
 But Python 2 had a strange but useful oddity: when you divide two *integers*,
 you get an integer. The remainder is discarded.
 
 ```python
-5 / 2
+5 / 2  # Returns 2
 ```
-
-returns `2`.
 
 You can replicate this in Python 3 by coercing the result into an integer, using
 the `int()` function:
 
 ```python
-int(5 / 2)
+int(5 / 2)  # Returns 2
 ```
 
 On the other hand, we have the **modulus** function (`%`). This returns *only the remainder*.
 
 ```python
-5 % 2
+5 % 2  # Returns 1
 ```
-
-returns `1`.
 
 ### Try it yourself: division
 
@@ -162,7 +159,7 @@ Now, define a variable `e` (in IPython) whose value is the sum of `a` and `b`,
 divided by the product of `c` and `d`. What will the value of `e` be? What
 **type** (integer or float) will `e` be?
 
-> Call `type(e)` to see if you're right.
+Call `type(e)` to see if you're right.
 
 ## That's all for this section!
 
