@@ -1,12 +1,20 @@
 # Functions
 
-Sometimes (often), you will have a bit of code that you want to use in several different places throughout a program, or even in other programs you write later. Writing the exact same code over and over again is not fun for anyone. It's boring, but it's also error-prone and inefficient. Luckily, you can define your own **functions** and use them instead of copying and pasting over and over again.
+Sometimes (often), you will have a bit of code that you want to use in several
+different places throughout a program, or even in other programs you write later.
+Writing the exact same code over and over again is not fun for anyone. It's
+boring, but it's also error-prone and inefficient. Luckily, you can define your
+own **functions** and use them instead of copying and pasting over and over again.
 
 ## Defining a function
 
-A function definition starts with the `def` keyword, followed by the name of your new function, and any arguments in parentheses. Then you write your code and usually end it with a `return` statement, which is the output of the function. The `return` statement lets you assign the value of a function to a variable.
+A function definition starts with the `def` keyword, followed by the name of
+your new function, and any arguments in parentheses. Then you write your code
+and usually end it with a `return` statement, which is the output of the function.
+The `return` statement lets you assign the value of a function to a variable.
 
-Let's say you wanted to define a function that takes one argument, a number, and adds three to it, then `return`s that value:
+Let's say you wanted to define a function that takes one argument, a number, and
+adds three to it, then `return`s that value:
 
 ```python
 def add_three(num):
@@ -52,7 +60,8 @@ def date():
 print(date())
 ```
 
-But normally, you would write a function because you have at least a few lines of code that you want to be able to reference in one short identifier.
+But normally, you would write a function because you have at least a few lines
+of code that you want to be able to reference in one short identifier.
 
 ```python
 def compare(a, b):
