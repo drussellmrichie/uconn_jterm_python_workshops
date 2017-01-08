@@ -69,7 +69,7 @@ for section in tutorial:
 
 And that's a **for loop**!
 
-A for loop takes each member of a list (with the syntax: `{python} for member in
+A for loop takes each member of a list (with the syntax: `for member in
 list`) one at a time, and does something to it according to your instructions.
 The process of doing something to each member of a list is known as **iteration**.
 
