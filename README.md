@@ -30,7 +30,7 @@ In this workshop -- held on Thursday January 12th at 10am, and led by Russell --
 3. [Seaborn](http://seaborn.pydata.org), a data visualization library that allows generating both basic plots (bar plots, scatter plots) and more advanced plots (violin plots, heatmaps) a breeze.
 4. [Scipy.stats](https://docs.scipy.org/doc/scipy/reference/stats.html) and/or [statsmodels](http://statsmodels.sourceforge.net/), libraries with common statistical functions and tests in the general(ized) linear model and beyond.
 
-Right now, the plan is to cover 1-4 with data from [WordBank](http://wordbank.stanford.edu), an open database of children's vocabulary development. If there is time (which is unlikely), we may showcase 1-4 with data collected by me and Matt Hall.
+We will cover 1-4 with data from [WordBank](http://wordbank.stanford.edu), an open database of children's vocabulary development.
 
 ## Installation and setup for Python sessions
 
