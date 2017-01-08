@@ -1,6 +1,6 @@
-**These materials are still a work-in-progress! Materials may change without notice (at least until the data analysis workshop on January 12)**
+**These materials are still a work-in-progress! Materials may change without notice (at least until the beginning of J-Term 2017)**
 
-**Right now, `Python Data Analysis Tutorial.ipynb` is the Jupyter Notebook in which the data analysis tutorial will be conducted**. Other notebooks in this folder are older versions that I will likely eventually discard.
+`Python Data Analysis Tutorial.ipynb` is the Jupyter Notebook in which the data analysis tutorial will be conducted.
 
 Note: Notebook(s) were developed in a dark jupyter notebook theme. Hence, viewing them in the default, white/bright theme will make some things and particularly visualizations difficult or outright impossible to decipher.
 
