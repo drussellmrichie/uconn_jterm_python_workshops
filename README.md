@@ -19,7 +19,7 @@ Pythonic endeavors.
 
 ### PsychoPy
 
-[Abstract to come]
+This tutorial will introduce you to PsychoPy – an open-source application written in Python that will allow you to design a wide range of neuroscience, psychology and psychophysics experiments.
 
 ### Data analysis with Python
 
