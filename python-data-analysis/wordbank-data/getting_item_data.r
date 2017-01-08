@@ -1,4 +1,4 @@
-setwd("~/uconn_jterm_python_workshops/python-data-analysis")
+setwd("~/uconn_jterm_python_workshops/python-data-analysis/wordbank-data/")
 
 library(wordbankr)
 
@@ -26,16 +26,16 @@ font <- theme_mikabr()$text$family
 all_languages_and_forms_item_data <- get_item_data()
 write.csv(all_languages_and_forms_item_data,'all_languages_and_forms_item_data.csv')
 
-num_words <- get_item_data() %>%
-  filter(form == "WS", type == "word") %>%
-  group_by(language) %>%
-  summarise(n = n())
-
-vocab_data <- vocab_admins %>%
-  left_join(num_words) %>%
-  mutate(production = as.numeric(production) / n) %>%
-  group_by(language, sex, age) %>%
-  summarise(median = median(production))
+# num_words <- get_item_data() %>%
+#   filter(form == "WS", type == "word") %>%
+#   group_by(language) %>%
+#   summarise(n = n())
+# 
+# vocab_data <- vocab_admins %>%
+#   left_join(num_words) %>%
+#   mutate(production = as.numeric(production) / n) %>%
+#   group_by(language, sex, age) %>%
+#   summarise(median = median(production))
 
 # ggplot(filter(vocab_data, language != "Hebrew"),
 #        aes(x = age, y = median, colour = sex, label = sex)) +
