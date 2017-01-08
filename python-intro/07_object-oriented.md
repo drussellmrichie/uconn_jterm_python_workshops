@@ -1,11 +1,9 @@
 # Object-Oriented Programming
 
-## Object-oriented programming
-
-Object-oriented programming centers around the definition of **classes**, which
+**Object-oriented programming** centers around the definition of **classes**, which
 hold **attributes** and **methods** in one cohesive **object.** On one hand, this
 is sort of "where it all comes together," but in reality, it is far less important
-than the preceding sections (switching things up, I know). 
+than the preceding sections (switching things up, I know).
 
 Classes can make your code much cleaner, but you can get by without them, which
 is something that cannot be said as easily for the previous sections. Still,
@@ -24,7 +22,6 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-        # self.quest = quest
 ```
 
 Class definitions start with an `__init__` method. (A **method** is a function
@@ -69,18 +66,12 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
-        # self.quest = quest
 
     def introduce(self):
         print("My name is " + self.name + ".")
-        # Note: An initially more confusing but eventually more efficient
-        # way to write the above line is:
-        # print("My name is {}.".format(self.name))
-        # This is called "string interpolation."
 
     def how_old(self):
         print("I am " + str(self.age) + " years old.")
-        # print("I am {} years old.".format(str(self.age)))
 ```
 
 Notice how we used `self.name` and `self.age` in the method definitions, but
@@ -226,7 +217,7 @@ may seem problematic, because the base class also has a method by the same name.
 But remember that *classes are mutable.* Writing a method of the same name as a
 base class's method simply overwrites the base class's method.
 
-### Try it out
+### Test it out
 
 So now let's make an adventurer.
 

@@ -10,7 +10,7 @@ own **functions** and use them instead of copying and pasting over and over agai
 
 A function definition starts with the `def` keyword, followed by the name of
 your new function, and any arguments in parentheses. Then you write your code
-and usually end it with a `return` statement, which is the output of the function.
+and usually end it with a `return` statement, which defines the output of the function.
 The `return` statement lets you assign the value of a function to a variable.
 
 Let's say you wanted to define a function that takes one argument, a number, and
@@ -90,7 +90,7 @@ pairs = [[1, 2], [5*2, 2*5], [555, 1]]
 compare_list(pairs)
 ```
 
-Function arguments are not limited to numbers. See `examples.md` for more.
+Function arguments are not limited to numbers. See `08-appendix_examples.md` for more.
 
 ## Up next: Object-oriented programming
 

@@ -29,7 +29,7 @@ x = 5
 print(x)
 ```
 
-(Note: Any line that starts with `#` will not be interpreted—this is called a 
+(Note: Any line that starts with `#` will not be interpreted—this is called a
 **comment**.)
 
 Variables in Python are **dynamically typed**. That means that you can assign
@@ -73,11 +73,16 @@ a valid Python statement.
 
 ### Try it yourself: Basic operations
 
-Go over to your IPython terminal (if IPython is not running, start it up again) and `%run numbers.py`.
+Go over to your IPython terminal (if IPython is not running, start it up again)
+and `%run numbers.py`.
 
-You won't see any output—that's okay, we didn't include any print statements! Instead, the variables you defined in `numbers.py` are now in IPython's memory, ready for you to use them. Make sure everything is set by entering `a` into the prompt. It should return `2`.
+You won't see any output—that's okay, we didn't include any print statements!
+Instead, the variables you defined in `numbers.py` are now in IPython's memory,
+ready for you to use them. Make sure everything is set by entering `a` into the
+prompt. It should return `2`.
 
-Now, let's do some math. Enter the following lines into IPython one-by-one, but before you enter each one, try to guess what it'll do.
+Now, let's do some math. Enter the following lines into IPython one-by-one, but
+before you enter each one, try to guess what it'll do.
 
 ```python
 a+b
@@ -92,11 +97,21 @@ Simple enough. Now to mix it up a little:
 2*a
 42**b
 b + 3 * a
-a * (a + b) - b**b
+a * (a+b) - b**b
 10(b)
 ```
 
-Sorry, that last one was a trick. You might be used to using parentheses to represent multiplication, but that doesn't work in Python. You still need the `*`. You can, however, use parentheses for association (like in `a * (a + b) - b**b`).
+Congratulations, you've survived your first error!
+
+Sorry to trick you, but it had two important purposes:
+
+First, it shows you that errors happen, and nothing explodes, and it's okay to
+just try (most) things to see if they'll work, because errors aren't the end of the world.
+
+The second thing is that you might be used to using parentheses to represent
+multiplication, but that doesn't work in Python. You still need the `*`. You'd
+get a similar error for the notation `10b` too. You can, however, use parentheses
+for association (like in `a * (a+b) - b**b`).
 
 ## Integers, floats, and division
 

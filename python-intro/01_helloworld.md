@@ -10,7 +10,7 @@ interchangeably.)
 
 Python programs have the extension `.py`.
 
-They sometimes start with a **shebang line** (named for the symbol at the 
+They sometimes start with a **shebang line** (named for the symbol at the
 beginning: `#!`), which tells the computer where to look for the **interpreter**—the
 program that handles your code). Example:
 
@@ -26,8 +26,8 @@ Give it a shebang line and save it.
 ## Strings and printing
 
 **Strings** are one **data type** in Python. Every object in Python has a data
-type (more commonly known as a *type*), which determines some of the functions 
-you can use on it. Some common types include **strings**, **integers**, **floats**, 
+type (more commonly known as a *type*), which determines some of the functions
+you can use on it. Some common types include **strings**, **integers**, **floats**,
 and **lists**. We will get to each of these, but we'll start with strings.
 
 **Strings** are essentially text. They are enclosed in quotation marks: either
@@ -76,7 +76,7 @@ the file from your finder. This is where the shebang line is important, because
 it lets you run a program without having to specify the language every time. But,
 you might need add execute permissions to the file first, which is beyond the
 scope of this tutorial.[[3](#footnotes)]
-3. **Run it from an interactive interpreter.** Anaconda comes with a nice 
+3. **Run it from an interactive interpreter.** Anaconda comes with a nice
 interactive interpreter called **IPython**. From IPython, you can run the file
 with `%run file.py`. When it is done running, all of the variables declared in
 that program will still be defined in the interpreter's **environment** (just like
@@ -110,7 +110,7 @@ You have officially written and run your own Python program!
 Move onto `02_numbers.md` to see what else you can do with Python.
 
 
-#### Footnotes
+## Footnotes
 
 1. Note: In Python 2, you don't need parentheses to execute a print statement,
 but in Python 3, you do.

@@ -108,6 +108,43 @@ Go back to `lists.py`. Write a loop that would print the following:
     I need to get more pineapples.
     Time for a grocery run!
 
+## Dictionaries
+
+**Dictionaries** are kind of like lists, but with a special property. In some other
+languages, you might know them as **hashes**. They are also very similar to JavaScript's
+objects (and can easily be converted to JSON).
+
+Dictionaries are lists of **key, value pairs**, or lists of named values. This
+means that instead of accessing dictionary items by their index, you access them
+by their key. Dictionaries are useful for storing data that you might want to look
+up later.
+
+Let's create a dictionary that actually stores definitions of Python terms:
+
+```python
+glossary = {
+    "string": "text, surrounded in quotation marks",
+    "integer": "whole number",
+    "float": "number containing a decimal",
+    "boolean": "true or false",
+    "list": "an ordered set of values",
+    "dictionary": "set of key-value pairs"
+}
+```
+
+You can now access values via their key:
+
+```python
+print(glossary["list"])
+```
+
+Or you can iterate over their items. This is best demonstrated with the `Dict.items()` method:
+
+```python
+for key, value in glossary.items():
+    print("{}: {}".format(key.title(), value.title()))
+```
+
 ## Advanced topic: while loops and list comprehension
 
 I won't go into detail about these for the sake of time, but you should know
