@@ -1,7 +1,9 @@
 setwd("~/uconn_jterm_python_workshops/python-data-analysis/wordbank-data/")
 
+## you will need to intall wordbankr first, and possiby the other libraries past langcog
 library(wordbankr)
 
+## uncomment the next two lines if you don't have the langcog library
 #install.packages("devtools")
 #devtools::install_github("langcog/langcog")
 library(langcog)
