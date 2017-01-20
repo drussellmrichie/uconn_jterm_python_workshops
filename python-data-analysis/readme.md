@@ -1,7 +1,3 @@
-`Python Data Analysis Tutorial.ipynb` is the Jupyter Notebook in which the data analysis tutorial will be conducted. The notebook should take under 1.5 hours to deliver orally (~1h 23m by RR's timing).
+`Python Data Analysis Tutorial.ipynb` is the Jupyter Notebook in which the data analysis tutorial will be conducted. The notebook should take about 1.5 hours to deliver orally. Note: this version of the notebook was developed in a dark jupyter notebook theme. Hence, viewing them in the default, white/bright theme will make some things and particularly visualizations difficult or outright impossible to decipher. If you want a version of the notebook appropriate for a light theme, see `Python Data Analysis Tutorial -- Light theme.ipynb`.
 
-Note: Notebook(s) were developed in a dark jupyter notebook theme. Hence, viewing them in the default, white/bright theme will make some things and particularly visualizations difficult or outright impossible to decipher.
-
-Check out this package for how to theme your jupyter notebooks:
-
-https://github.com/dunovank/jupyter-themes
+Check out [this package](https://github.com/dunovank/jupyter-themes) for how to theme your jupyter notebooks.
